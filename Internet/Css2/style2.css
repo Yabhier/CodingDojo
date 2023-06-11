@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+}
+#body {
+    width: 800px; 
+    margin: 0 auto; 
+}
+.main{
+    width: 970px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(#e6e6e6, white, white, white);
+}
+.header{
+    width: 970px;
+}
+.header img{
+    width: 90px;
+    height: 90px;
+}
+.header span{
+    color: #22659e;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.infoninja{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.infoninja h4 span{
+    color: red;
+}
+.infoninja h5 span{
+    color: #22659e;
+}
+.infoninja .azul{
+    background-image: linear-gradient(#6096c2,#24679f);
+    border: 0;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 180px;
+    color: white;
+}
+.infoninja .naranja{
+    background-image: linear-gradient(#eaa94e, #f07200);
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 180px;
+    color: white;
+}
+.banner{
+    width: 970px;
+    height: 50px;
+    font-size: large;
+    padding: 0.5px;
+    background-image: linear-gradient(#23659e, #4a7eaa, #23659e);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.a_inf{
+    width: 750px;
+    margin-left: 30px;
+}
+.a_inf .dns{
+    display: flex;
+    align-items: last baseline;
+}
+.a_inf .dns img{
+    width: 35px;
+    margin-right: 2px;
+}
+.dns{
+    margin-top: 10px;
+    color: #23669f;
+}
+
+.phone h3{
+    color: #0ec2df;
+    font-size: 25px;
+}
+.phone h6, h3{
+    margin: 0;
+}
+.a_inf .phone{
+    display: flex;
+    align-items: center;
+}
+.a_inf .phone img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.arriba {
+    width: 750px;
+    height: 66px;
+}
+.arriba .dns{
+    float: left;
+}
+.arriba .phone{
+    float: right;
+}
+.centro{
+    margin-top: 5px;
+}
+.centro ul{
+    margin-left: 50px;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.centro h2{
+    color: #23659e;
+}
+.centro span{
+    color: #0fcfed;
+}
+.centro img{
+    width: 366px;
+}
+.centro .lista{
+    list-style-type: decimal;
+}
+.info{
+    width: 180px;
+    height: 500px;
+
+}
+.ninja h3{
+    text-align: center;
+    font-size: 23px;
+}
+.ninja{
+    background-image: url(./img/ad_background.png);
+    color: white;
+    width: 180px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ninja img{
+    width: 80px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.ninja button{
+    color: white;
+    background-color: #31c9e1;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.abajo {
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    margin-top: 20px;
+}
+.abajo div{
+    margin-top: 15px;
+    font-size: 122%;
+
+}
+.abajo h2{
+    color: #23659e;
+}
+.abajo img{
+    width: 150px;
+    padding: 15px;
+}
+.abajo a{
+    color: #0ec2df;
+    text-decoration: none;
+    
+}

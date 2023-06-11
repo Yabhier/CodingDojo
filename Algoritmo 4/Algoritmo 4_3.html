@@ -1,0 +1,17 @@
+<script>
+    function reemplazarNegativos(arr) {
+      let nuevoArray = [];    
+        for(let i in arr) {
+        if (arr[i] < 0) {
+          nuevoArray.push("Dojo");
+        } else {
+          nuevoArray.push(arr[i]);
+        }
+      }
+      return nuevoArray;
+    }
+    var numeros = [1, 2, -3, -5, 5]; var nuevoArray = reemplazarNegativos(numeros);
+    console.log(nuevoArray);
+  </script>
+</body>
+</html>

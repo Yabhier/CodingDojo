@@ -1,0 +1,12 @@
+<script>
+    function removerRango(array, indiceInicial, indiceFinal) {
+  const elementosEliminar = indiceFinal - indiceInicial + 1;
+  array.splice(indiceInicial, elementosEliminar);
+  return array;
+}
+
+const arrayOriginal = [20, 30, 40, 50, 60, 70];
+const arrayModificado = removerRango(arrayOriginal, 2, 4);
+console.log(arrayModificado); // Output: [20, 30, 70]
+
+</script>

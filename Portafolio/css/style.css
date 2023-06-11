@@ -1,0 +1,221 @@
+#gradiente {
+    background-color: silver; /* For browsers that do not support gradients */
+    background-image: linear-gradient(silver, rgb(77, 77, 77), silver);
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#img_contacto {
+    width: 10px;
+    height: 10px;
+}
+.tresup {
+    background-image: linear-gradient(to right, white, silver);
+    width: 435px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 48px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 207px;
+}
+.tres {
+    background-image: linear-gradient(to right, white, silver);
+    width: 287px;
+    height: 484px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+p {
+    word-wrap: break-word;
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: -3%;
+    font-size: 14px;
+}
+#iam{
+    position: relative;
+    top: -20%;
+    font-size: 14px;
+    margin-left: 13px;
+    margin-right: 11px;
+    text-align: justify;
+}
+.subrayado {
+    position: relative;
+    top: -15%;
+    margin-left: 13px;
+    text-decoration: underline;
+    text-decoration-color: black;   
+}
+#img_tecnologias {
+    display: inline-block;
+    width: 38px;
+    height: 30px;
+    margin: 5px;
+}
+.green-button1 {
+    position: relative;
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10%;
+    margin-top: -1%;
+    margin-left: 35%;
+}
+.green-button2{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: -1%;
+    margin-left: 28%;
+}
+.green-button3{
+    background-color: rgb(64, 125, 97);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: -0.5%;
+    margin-left: 35%;
+}
+#about_me {
+    width: 400px;
+    height: 198px;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    margin-right: 31px;
+    margin-top: 10px;
+    border-color: #959595;
+    border-style: ridge;
+    margin-left: -16px;
+    border-width: 6px;
+}
+.img-about-section {
+    display: flex;
+    border: solid 1px;
+    align-items: flex-start;
+}
+.img-about-section img {
+    width: 500px;
+    margin-right: 10px;
+    height: 335px;
+}
+.aboutsection {
+    border: solid 1px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutsection .headerCard {
+    height: 30px;
+    width: 200px;
+    background-image: linear-gradient(silver, gray, gray, silver);
+}
+.aboutsection .bodyCard {
+    width: 200px;
+    background-color: silver;
+}
+.headerCard {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bodyCard {
+    font-size: 16px;
+}
+#dos {
+    background-image: radial-gradient(rgb(161, 109, 161), black);
+    width: 970px;
+    position: static;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h3 {
+    margin-top: 0;
+    padding: 2%;
+}
+.abajo {
+    display: inline-block;
+}
+#tecnologia-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 11%;
+    margin-left: 3%;
+}
+#Technolgies1{
+    position: relative;
+    top: -9%;
+}
+#tecnologies2{
+    position: relative;    
+}
+#tecnologies3{
+    position: relative;
+}
+#imgs3{
+    position: relative;
+    top: -5%;
+    margin: 5%;
+}
+#imgs2{
+    position: relative;
+    top: -2%;
+    margin: 5%;
+}
+#footer{
+    display: inline-block;
+    position: relative;
+    left: 28%;;
+}
+#footer a{
+    color: black;
+    font-size: 20px;
+}
+#footer img{
+    width: 20px;
+    height: 20px;
+}
+#mail{
+    margin-left: 28%;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+#Jayne{
+    display: inline-block;
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    margin-left: 4%;
+    margin-right: 52%;
+    font-size: 160%;
+}
+#master{
+    display: inline-block;
+    margin-bottom: 1%;
+}
+#header{  
+    font-weight: bold;  
+    background-color: #eeeeee;
+    width: 970px;
+    margin-left: 18px;
+}

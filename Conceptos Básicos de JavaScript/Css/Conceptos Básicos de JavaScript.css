@@ -1,0 +1,85 @@
+#uno{
+    background-color: rgb(18, 53, 91);
+    width: 970px;
+    height: 980pxs;
+    position: static;
+    padding: 1px;
+    color: rgb( 191, 215, 234);
+}
+#dos{
+    background-color: rgb(215, 38, 56);
+    width: 950px;
+    height: 60px;
+    position: relative;
+    top: 0%; 
+    left: 1%;
+    border-radius: 10px;
+    margin-top: 0.5%;
+    line-height: 55px;
+}
+#dos h1{
+    padding-left: 20px;
+}
+#tres{
+    background-color: rgb(12, 24, 33);
+    width: 718px;
+    height: 400px;
+    position: relative;
+    top: 8.5%; 
+    left: 25%;
+    border-radius: 10px;
+    text-align: justify;
+}
+#cuatro{
+    background-color: rgb(8, 126, 139);
+    width: 220px;
+    position: absolute;
+    border-radius: 10px;
+    top: 11.9%;
+    left: 0.8%;
+}
+#cinco{
+    background-color: rgb(92, 102, 114);
+    width: 950px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: relative;
+}
+#cuatro a{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 100%;
+    color: rgb( 82, 222, 229);
+}
+#tres h2{
+    position: relative;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+#tres p{
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#tres a{
+    color: rgb( 82, 222, 229);
+}
+#tres ul{
+    font-size: 80%;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+#tres ul span{
+    color: rgb( 108, 146, 255);
+}
+#cinco span{
+    font-size: 110%;
+    position: relative;
+    top: 30%;
+    left: 1%;
+}
+#cinco a{
+    color: rgb( 82, 222, 229);
+}

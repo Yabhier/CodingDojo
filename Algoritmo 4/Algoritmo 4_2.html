@@ -1,0 +1,10 @@
+<script>
+    function maxMinAvg(x){
+        let sum=x[0];
+        for(let i in x){
+            sum+= x[i];
+        }
+        console.log("El máximo es:"+ Math.max(...x),"El minimo es:"+ Math.min(...x), "El promedio es:"+ sum/x.length );
+    }
+    maxMinAvg([4,4,2,5]);
+</script>
