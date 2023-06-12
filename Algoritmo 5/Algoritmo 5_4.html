@@ -1,0 +1,16 @@
+<script>
+    /*Crea una función que cambie un array repitiendo sus valores originales 
+    (manteniendo el mismo orden). Por ejemplo, repetirValores([4,”Ulysses”, 42, false]) 
+    debiera dar [4,4, “Ulysses”, “Ulysses”, 42, 42, false, false].*/
+
+    function repetido(array){
+        var x = [];
+        for(let i in array){   //este bucle escanea el array que se le de
+            x.push(array[i]);  // estos push agregan dos veces el array[i] en el que este.      
+            x.push(array[i]);
+        }
+        return x;               //retorna el valor
+    }
+    var arrayOriginal = [4,'Ulysses', 42, false];
+    console.log(repetido(arrayOriginal)); //output: [4,4, “Ulysses”, “Ulysses”, 42, 42, false, false] 
+</script>

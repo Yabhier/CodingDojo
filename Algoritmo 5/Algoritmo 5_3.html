@@ -1,0 +1,29 @@
+<script>
+    /*Configura un array para que el resultado 
+    sean los valores en el orden contrario. 
+    Por ejemplo, returnReverso([1,2,3]) debe 
+    dar [3,2,1].*/
+ 
+    /* se me ocurre guardar los valores del array, cada uno en una variable diferente y asi hasta dejar el array 
+    vacio, de forma que una vez este vacio la funcion devuelva los valores en orden opuesto al que fueron guardados*/
+    
+     function guardarYDevolver(array) {
+  const variables = [];
+  
+  while (array.length > 0) {    //while que se ejecuta mientras el array original tenga elementos.
+    let valor = array.pop();
+    variables.push(valor);
+  }/*En cada iteración, se extrae el último valor del array
+   utilizando el método pop(), y se guarda en la variable valor*/ 
+   
+   //Luego, se agrega valor al array variables
+  
+  return variables;
+}
+const arrayOriginal = [1, 2, 3];
+const valoresDevueltos = guardarYDevolver(arrayOriginal);   /*Cuando el bucle termina y el array original está 
+                                                            vacío, la función devuelve el array variables con los 
+                                                            valores guardados en orden opuesto.*/
+console.log(valoresDevueltos); // Output: [3, 2, 1]
+
+</script>
