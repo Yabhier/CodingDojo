@@ -1,0 +1,35 @@
+<script>
+    const Perro = {
+        nombre:"completo",
+        pelaje: "liso",
+        color_de_pelaje: "negro",
+        color_de_ojos: "cafes",
+        tamaño: "mediano",
+        peso_en_kg: 12,
+        edad_en_años: 2,
+        vacunas_al_dia: "si",
+        dormir: function (){
+            return "estoy durmiendo";
+        },
+        ladrar: function(p2){
+            return "Yo: "+this.nombre+ " estoy ladrando a: "+ p2.nombre
+        }  
+    };
+    const Perro2 = {
+        nombre:"Empanada",
+        pelaje: "ondulado",
+        color_de_pelaje: "cafe",
+        color_de_ojos: "negro",
+        tamaño: "mediano",
+        peso_en_kg: 12,
+        edad_en_años: 2,
+        dormir: function (){
+            return "estoy durmiendo";
+        },
+        ladrar: function(p2){
+            return "Yo: "+this.nombre+ " estoy ladrando a: "+ p2.nombre
+        }   
+    };
+console.log(Perro.ladrar(Perro2));
+console.log(Perro2.ladrar(Perro));
+</script>
